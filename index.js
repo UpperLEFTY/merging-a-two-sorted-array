@@ -4,3 +4,15 @@ function mergeSortedArray(a, b){
       bElm = b[0],
       i = 1,
       j = 1;
+if(a.length ==0)
+    return b;
+  if(b.length ==0)
+    return a;
+  /* 
+  if aElm or bElm exists we will insert to merged array
+  (will go inside while loop)
+   to insert: aElm exists and bElm doesn't exists
+             or both exists and aElm < bElm
+    this is the critical part of the example            
+  */
+  
