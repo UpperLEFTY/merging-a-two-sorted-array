@@ -24,3 +24,9 @@ if(a.length ==0)
      merged.push(bElm);
      bElm = b[j++];
    }
+}
+  return merged;
+}
+
+ mergeSortedArray([2,5,6,9], [1,2,3,29]);
+ = [1, 2, 2, 3, 5, 6, 9, 29]
