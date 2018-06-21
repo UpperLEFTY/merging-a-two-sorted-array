@@ -15,4 +15,8 @@ if(a.length ==0)
              or both exists and aElm < bElm
     this is the critical part of the example            
   */
-  
+   while(aElm || bElm){
+   if((aElm && !bElm) || aElm < bElm){
+     merged.push(aElm);
+     aElm = a[i++];
+   }   
