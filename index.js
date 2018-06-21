@@ -20,3 +20,7 @@ if(a.length ==0)
      merged.push(aElm);
      aElm = a[i++];
    }   
+ else {
+     merged.push(bElm);
+     bElm = b[j++];
+   }
