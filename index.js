@@ -9,11 +9,11 @@ if(a.length ==0)
   if(b.length ==0)
     return a;
   /* 
-  if aElm or bElm exists we will insert to merged array
+  if aElm or bElm exists I will insert to merged array
   (will go inside while loop)
    to insert: aElm exists and bElm doesn't exists
              or both exists and aElm < bElm
-    this is the critical part of the example            
+    this is the critical part of the probelm           
   */
    while(aElm || bElm){
    if((aElm && !bElm) || aElm < bElm){
